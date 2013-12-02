@@ -1,7 +1,7 @@
 {
-  "name": "model-virtual",
+  "name": "model-cache",
   "private": true,
-  "description": "virtuals for Swatinem/model",
+  "description": "A cache for Swatinem/model",
   "version": "0.0.1",
   "keywords": [],
   "main": "./index",
@@ -21,6 +21,6 @@
   "scripts": {
     "test": "make test && make test-coveralls"
   },
-  "repository": "git://github.com/Swatinem/model-virtual.git",
+  "repository": "git://github.com/Swatinem/model-cache.git",
   "license": "LGPLv3"
 }

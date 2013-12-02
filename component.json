@@ -1,8 +1,8 @@
 {
-  "name": "model-virtual",
-  "repo": "Swatinem/model-virtual",
+  "name": "model-cache",
+  "repo": "Swatinem/model-cache",
   "version": "0.0.1",
-  "description": "virtuals for Swatinem/model",
+  "description": "A cache for Swatinem/model",
   "keywords": [],
   "main": "lib/index.js",
   "scripts": [
