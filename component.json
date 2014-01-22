@@ -1,7 +1,7 @@
 {
   "name": "model-cache",
   "repo": "Swatinem/model-cache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cache for Swatinem/model",
   "keywords": [],
   "main": "lib/index.js",
