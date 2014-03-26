@@ -24,7 +24,7 @@ describe('Cache', function () {
 		var SomeModel = new Model(['prop'])
 			.use(Cache('prop'));
 		var instance = new SomeModel({prop: 'key', prop2: 'other'});
-		should.exist(SomeModel.get('key'));
+		SomeModel.get('key').should.equal(instance);
 		SomeModel.clear();
 		should.not.exist(SomeModel.get('key'));
 	});
@@ -33,8 +33,8 @@ describe('Cache', function () {
 			.use(Cache('prop'));
 		var instance1 = new SomeModel({prop: 'key1', prop2: 'other'});
 		var instance2 = new SomeModel({prop: 'key2', prop2: 'other'});
-		should.exist(SomeModel.get('key1'));
-		should.exist(SomeModel.get('key2'));
+		SomeModel.get('key1').should.equal(instance1);
+		SomeModel.get('key2').should.equal(instance2);
 		SomeModel.clear('key1');
 		should.not.exist(SomeModel.get('key1'));
 		should.exist(SomeModel.get('key2'));

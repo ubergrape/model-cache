@@ -4,9 +4,9 @@
   "version": "0.0.2",
   "description": "A cache for Swatinem/model",
   "keywords": [],
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": [
-    "lib/index.js"
+    "index.js"
   ],
   "dependencies": {
   },
