@@ -1,8 +1,8 @@
 {
   "name": "model-cache",
-  "repo": "Swatinem/model-cache",
+  "repo": "ubergrape/model-cache",
   "version": "0.0.2",
-  "description": "A cache for Swatinem/model",
+  "description": "A cache for ubergrape/model",
   "keywords": [],
   "main": "index.js",
   "scripts": [
