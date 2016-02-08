@@ -45,5 +45,5 @@ var instance = User.get('foo@bar');
 
 ## License
 
-  LGPLv3
+  MIT
 
